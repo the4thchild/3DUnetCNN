@@ -1,0 +1,13 @@
+name: unet
+channels:
+- defaults
+- conda-forge # for nibabel
+- simpleitk # for SimpleITK
+dependencies:
+- python=3.6
+- nibabel
+- keras
+- pytables
+- nilearn
+- SimpleITK
+- nipype
