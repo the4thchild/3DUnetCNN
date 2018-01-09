@@ -7,4 +7,5 @@ according to the 3DUnetCNN testing protocol.
 
 from preprocess import convert_brats_data
 
-convert_brats_data("data/original", "data/preprocessed")
+if __name__ == "__main__":
+    convert_brats_data("data/original", "data/preprocessed")
