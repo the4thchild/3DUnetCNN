@@ -3,10 +3,11 @@ channels:
 - defaults
 - conda-forge # for nibabel
 - simpleitk # for SimpleITK
+- aaronzs # for Tensorflow-GPU (if added)
 dependencies:
 - python=3.6
 - nibabel
-- tensorflow-gpu
+- tensorflow=1.4
 - keras
 - pytables
 - nilearn
